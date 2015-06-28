@@ -1,0 +1,4 @@
+systemctl disable netctl-auto@wlp1s0.service
+systemctl enable NetworkManager.service
+systemctl enable lightdm.service
+

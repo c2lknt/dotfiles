@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+systemctl disable NetworkManager.service
+systemctl disable lightdm.service
+systemctl enable netctl-auto@wlp1s0.service
+
