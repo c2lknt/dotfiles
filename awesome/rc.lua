@@ -65,10 +65,10 @@ editor     = os.getenv("EDITOR") or "nano" or "vi"
 editor_cmd = terminal .. " -e " .. editor
 
 -- user defined
-browser    = "dwb"
-browser2   = "iron"
-gui_editor = "gvim"
-graphics   = "gimp"
+browser    = "chromium"
+browser2   = "dwb"
+gui_editor = "subl3"
+graphics   = "pinta"
 mail       = terminal .. " -e mutt "
 
 local layouts = {
@@ -583,8 +583,8 @@ globalkeys = awful.util.table.join(
     -- User programs
     awful.key({ modkey }, "q", function () awful.util.spawn(browser) end),
 --    awful.key({ modkey }, "i", function () awful.util.spawn(browser2) end),
---    awful.key({ modkey }, "s", function () awful.util.spawn(gui_editor) end),
---    awful.key({ modkey }, "g", function () awful.util.spawn(graphics) end),
+   awful.key({ modkey }, "s", function () awful.util.spawn(gui_editor) end),
+   awful.key({ modkey }, "g", function () awful.util.spawn(graphics) end),
 
     -- Prompt
     awful.key({ modkey }, "r", function () mypromptbox[mouse.screen]:run() end),
