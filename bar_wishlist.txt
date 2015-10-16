@@ -1,0 +1,9 @@
+
+date/time
+battery
+wifi + %
+
+mouseover calendar
+volume
+up/down speed
+music
