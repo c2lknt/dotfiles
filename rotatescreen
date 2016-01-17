@@ -1,0 +1,11 @@
+#!/bin/bash
+set -n normal
+if [-n]
+then 
+    xrandr --output eDP1 --rotate normal
+fi
+
+case -n
+    set n
+    xrandr --output eDP1 --rotate normal
+    break;
