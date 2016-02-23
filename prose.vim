@@ -2,10 +2,10 @@
 set wrap
 
 sy region quote  start=+\"+ end=+\"+
-sy region brack  start="\[" end="\]"
+"sy region brack  start="\[" end="\]"
 sy region quote  start="“" end="”"
 hi quote ctermfg=blue guifg=blue
-hi brack ctermfg=red guifg=red
+"hi brack ctermfg=red guifg=red
 
 sy spell toplevel
 
