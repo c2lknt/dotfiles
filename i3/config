@@ -28,6 +28,11 @@ floating_modifier $mod
 #startup scripts
 exec --no-startup-id startupscript.sh
 exec --no-startup-id rotate-aligner.sh
+exec --no-startup-id tint2
+exec --no-startup-id megasync
+exec --no-startup-id telegram
+exec --no-startup-id volwheel
+exec --no-startup-id compton
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
@@ -168,22 +173,22 @@ bindsym $mod+r mode "resize"
 # bar {
 #         status_command i3status
 # }
-bar {
+# bar {
 #        status_command conky -c $HOME/.i3/conky/conkyrc
         #status_command i3status --config ~/.config/i3/.config_panel_bar_config
-        status_command i3status
-        mode dock
-        position top
-        font pango:monospace 10
+#        status_command i3status
+#        mode dock
+#        position top
+#        font pango:monospace 10
         # strip_workspace_numbers yes
-colors {
-        background #222222
-        statusline #e8e9ca
-        separator #e8e9ca
-
-        focused_workspace  #4c4c4c #e8e9ca #222222
-        active_workspace   #4c4c4c #e8e9ca #222222
-        inactive_workspace #4c4c4c #222222 #e8e9ca
-        urgent_workspace   #4c4c4c #222222 #e8e9ca
-    }
-}
+#colors {
+#        background #222222
+#        statusline #e8e9ca
+#        separator #e8e9ca
+#
+#        focused_workspace  #4c4c4c #e8e9ca #222222
+#        active_workspace   #4c4c4c #e8e9ca #222222
+#        inactive_workspace #4c4c4c #222222 #e8e9ca
+#        urgent_workspace   #4c4c4c #222222 #e8e9ca
+#    }
+#}
