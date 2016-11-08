@@ -1,0 +1,5 @@
+#!/bin/bash
+mount /dev/sdd1 /mnt/HotDrive
+mount /dev/sdb1 /mnt/CoreDrive
+mount /dev/sde1 /mnt/ColdDrive
+mount /dev/sdc2 /mnt/C_Drive

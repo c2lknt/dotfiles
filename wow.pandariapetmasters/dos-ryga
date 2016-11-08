@@ -1,0 +1,28 @@
+5.3 Easy Mode strategy
+
+So, the 5.3 change basically made his heal twice as powerful as before, so the key is to be able to burst him down in that 5 round window. Chrominius is the real key to this strategy, and then follow him up with a Crow/Gilnean Raven.
+Open With Chrominius
+Dos-Ryga uses Whirlpool
+Chrominius uses Howl
+Dos-Ryga uses Healing Wave for 0 health
+Chrominius uses Bite (400+ damage)
+Dos-Ryga uses Frost Breath
+Chrominius uses Surge of Power (1000+ damage)
+Chrominius eats another Frost Breath and dies to Whirlpool
+Gilnean Raven Uses Call Darkness (200+ damage)
+Dos-Ryga uses Frost Breath
+Gilnean Raven uses Nocturnal Strike (300+ damage)
+Dos-Ryga dies
+The fight will follow this script every time as far as I can tell. He always uses Whirlpool and Healing Wave on Cooldown, in that order, and fills in with Frost Breath, so you get 5 rounds to kill him. Chrominius' 1400+ burst in 2 rounds trivializes this encounter.
+
+Enjoy!
+
+chrominius:
+howl 
+sorge of power
+die
+gilnean raven:
+call darkness
+nocturnal strike
+crow:
+nocturnal strike
