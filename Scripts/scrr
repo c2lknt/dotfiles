@@ -1,0 +1,8 @@
+#!/bin/bash
+rotation=`xrandr | grep eDP1 | cut -b30-35`
+#echo "$rotation"
+if [ "$rotation" = "normal" ] ; then
+  xrandr --output eDP1 --rotate left
+else
+  xrandr --output eDP1 --rotate normal
+fi

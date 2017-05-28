@@ -1,0 +1,11 @@
+#!/bin/bash
+umount -t cifs //192.168.1.2/videos
+umount -t cifs //192.168.1.2/books
+umount -t cifs //192.168.1.2/Downloads
+umount -t cifs //192.168.1.2/Movies_Misc
+umount -t cifs //192.168.1.2/music
+umount -t cifs //192.168.1.2/New_Music
+umount -t cifs //192.168.1.2/New_Reading
+umount -t cifs //192.168.1.2/New_Videos
+umount -t cifs //192.168.1.2/zzzFFOutput
+umount -t cifs //192.168.1.2/Seinfeld-S01-S09
