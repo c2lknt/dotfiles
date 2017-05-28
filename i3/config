@@ -29,9 +29,9 @@ floating_modifier $mod
 exec --no-startup-id startupscript.sh
 exec --no-startup-id rotate-aligner.sh
 exec --no-startup-id tint2
-exec --no-startup-id megasync
-exec --no-startup-id telegram
-exec --no-startup-id volwheel
+#exec --no-startup-id megasync
+#exec --no-startup-id telegram
+#exec --no-startup-id volwheel
 exec --no-startup-id compton
 
 # start a terminal

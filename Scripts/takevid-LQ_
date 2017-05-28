@@ -1,0 +1,3 @@
+#!/bin/bash
+#date +%Y-%m-%d_%H_%M_%S
+ffmpeg -f x11grab -video_size 1600x900 -r 60 -loglevel error -i $DISPLAY $(date +%Y-%m-%d_%H_%M_%S).mp4
