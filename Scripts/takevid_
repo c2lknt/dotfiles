@@ -1,3 +1,0 @@
-#!/bin/bash
-#date +%Y-%m-%d_%H_%M_%S
-ffmpeg -f x11grab -s 1600x900 -i :0.0 -c:v libx264 -preset medium -crf 0  $(date +%Y-%m-%d_%H_%M_%S).mkv

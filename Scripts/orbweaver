@@ -1,1 +1,1 @@
-xkbcomp -i 10 /home/dad/Documents/dotfiles/orbweaver-0.2.xkb $DISPLAY
+xkbcomp -i 10 /home/dad/Documents/dotfiles/keyboards/orbweaver-0.2.xkb $DISPLAY
