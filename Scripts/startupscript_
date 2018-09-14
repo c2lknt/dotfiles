@@ -1,0 +1,4 @@
+#!/bin/bash
+xrandr --output eDP1 --mode 1600x900
+feh --bg-scale --randomize /home/dad/Pictures/Tokyo/*
+
