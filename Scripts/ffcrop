@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "filename: "
+read -e Filename
+echo "new width: "
+read -e Newwidth
+echo "new height: "
+read -e Newheight
+echo "new left corner: "
+read -e Topx
+echo "new top corner: "
+read -e Topy 
+Newname=$(echo $Filename | sed 's/\.[^.]*$/-c&/')
+ffmpeg -i $Filename -filter:v "crop=$Newwidth:$Newheight:$Topx:$Topy" $Newname

@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "filename: "
+read -e Filename
+echo "start time: "
+read -e Start
+echo "new duration: "
+read -e End
+Newname=$(echo $Filename | sed 's/\.[^.]*$/-s&/')
+#echo $Newname
+ffmpeg -i $Filename -ss $Start -t $End -crf 0 $Newname
