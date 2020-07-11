@@ -1,1 +1,0 @@
-Documents/cpldc/dotfiles/scripts/wifiCLI.sh
